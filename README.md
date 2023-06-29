@@ -1,13 +1,15 @@
 iac-tke
 ====
 
-使用 Terraform 创建一个测试用途的腾讯云 TKE 集群。
+使用 [Terraform](https://developer.hashicorp.com/terraform/downloads) 创建一个测试用途的 [腾讯云 TKE](https://cloud.tencent.com/product/tke) 集群。
 
 - 配置并提供以下用于调用腾讯云API的环境变量：
     - `export TENCENTCLOUD_SECRET_ID="<my-secret-id>"`
     - `export TENCENTCLOUD_SECRET_KEY="<my-secret-key>"`
     - `export TENCENTCLOUD_REGION="ap-guangzhou"`
 
-- `terraform init`
+- 初始化 Terraform 模块：`terraform init`
 
-- `terraform apply`
+- 创建腾讯云资源 `terraform apply`
+
+- 删除腾讯云资源 `terraform destroy`
