@@ -10,6 +10,6 @@ iac-tke
 
 - 初始化 Terraform 模块：`terraform init`
 
-- 创建腾讯云资源 `terraform apply`
+- 创建腾讯云资源：`terraform apply`
 
-- 删除腾讯云资源 `terraform destroy`
+- 删除腾讯云资源：`terraform destroy`
